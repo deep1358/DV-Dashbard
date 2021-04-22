@@ -1,0 +1,133 @@
+<html>
+  <meta charset="utf-8" />
+  <head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* set the CSS */
+
+      .tick > text {
+        fill: #acaeb4;
+        font-size: 12px;
+      }
+      .tick > line {
+        stroke: #acaeb4;
+      }
+      .domain {
+        stroke: #acaeb4;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Food Delievery Dashboard</h1>
+    </header>
+
+    <div class="row-1">
+      <div id="piechart" class="abc" style="width: 900px; height: 400px"></div>
+      <div id="d3-linechart" class="abc" style="width: 900px; height: 400px">
+        <h3>Number of deliveries per Year</h3>
+      </div>
+    </div>
+    <div class="row-2">
+      <div id="areachart">
+        <h3>Revenue earned per year</h3>
+        <div class="legends">
+          <div class="legends-div">
+            <svg class="svg">
+              <circle fill="#DE425B" r="10" cx="10" cy="10" fill="white" />
+            </svg>
+            <p style="color: #dbedf3">Zomato</p>
+          </div>
+          <div class="legends-div">
+            <svg style="width: 100% !important" class="svg">
+              <circle fill="#EB6F59" r="10" cx="10" cy="10" fill="white" />
+            </svg>
+            <p style="color: #dbedf3">Swiggy</p>
+          </div>
+          <div class="legends-div">
+            <svg class="svg">
+              <circle fill="#F29662" r="10" cx="10" cy="10" fill="white" />
+            </svg>
+            <p style="color: #dbedf3">Food Panda</p>
+          </div>
+          <div class="legends-div">
+            <svg class="svg">
+              <circle fill="#F6BB78" r="10" cx="10" cy="10" fill="white" />
+            </svg>
+            <p style="color: #dbedf3">Dominos</p>
+          </div>
+          <div class="legends-div">
+            <svg class="svg">
+              <circle fill="#F9DE99" r="10" cx="10" cy="10" fill="white" />
+            </svg>
+            <p style="color: #dbedf3">Others</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row-3">
+      <div id="linechart" class="abc" style="width: 750px; height: 500px"></div>
+      <div id="donutchart" class="abc" style="width: 750px; height: 500px">
+        <h3>5 star ratings</h3>
+      </div>
+    </div>
+
+    <div class="row-4">
+      <div id="bubblechart" style="width: 900px; height: 500px"></div>
+    </div>
+
+    <div class="row-5">
+      <div id="barchart" class="abc">
+        <h3>Number of delivery boys</h3>
+      </div>
+      <div id="barchart2" class="abc">
+        <h3>Number of users</h3>
+      </div>
+    </div>
+
+    <div class="row-6">
+      <h3>Statewise Delieveries</h3>
+      <div id="mapchart" style="margin: 1em"></div>
+    </div>
+
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="//d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"
+      integrity="sha512-wNH6xsp2n8CfB91nrBtfc4sfLwYPBMjSWVUwQOp60AYYXH6i8yCwuKFZ4rgK2i6pQek/b+bSyR7b01/922IBzQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"
+      integrity="sha512-jaNmuLbHtQ1ND+i63wVvwBd9T2hB3gTnk3x0Pp5R+AJwDdyzMe3t0vQqwUSoI9a/Ol1nscGV/1et4zSwL0P3AA=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+    <script src="js/PieChart.js"></script>
+    <script src="js/AreaChart.js"></script>
+    <script src="js/bubbleChart.js"></script>
+    <script src="js/BarChart-2.js"></script>
+    <script src="js/MapChart.js"></script>
+    <script src="js/lineChart.js"></script>
+    <script src="js/donutChart.js"></script>
+    <script src="js/BarChart.js"></script>
+    <script src="js/D3-linechart.js"></script>
+  </body>
+</html>

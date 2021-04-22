@@ -1,0 +1,10 @@
+//////1.)users -bar chart
+/////2.)no.delivery per day -line chart
+//////3.)best offers - bubble chart
+///////5.)state wise delieveries -map chart
+//////6.)no. of hotels registerd with apps -area chart
+//////7.)no of delivery boys - bar chart
+//////8.)playstore 5 star rating - Donut Chart
+//////9.)market share - pie chart
+//////10.)revenue earned - stack area chart
+///////11.)no of download in Year - line chart

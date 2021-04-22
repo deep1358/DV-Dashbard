@@ -1,0 +1,90 @@
+[
+  {
+    "year": 2010,
+    "zomato": 6309,
+    "swiggy": 3195,
+    "foodPanda": 1655,
+    "dominos": 703,
+    "others": 479
+  },
+  {
+    "year": 2011,
+    "zomato": 5398,
+    "swiggy": 2620,
+    "foodPanda": 1409,
+    "dominos": 729,
+    "others": 427
+  },
+  {
+    "year": 2012,
+    "zomato": 4696,
+    "swiggy": 2327,
+    "foodPanda": 1228,
+    "dominos": 738,
+    "others": 419
+  },
+  {
+    "year": 2013,
+    "zomato": 3936,
+    "swiggy": 1946,
+    "foodPanda": 1064,
+    "dominos": 738,
+    "others": 419
+  },
+  {
+    "year": 2014,
+    "zomato": 3547,
+    "swiggy": 1790,
+    "foodPanda": 1048,
+    "dominos": 801,
+    "others": 377
+  },
+  {
+    "year": 2015,
+    "zomato": 3409,
+    "swiggy": 1577,
+    "foodPanda": 1013,
+    "dominos": 757,
+    "others": 186
+  },
+  {
+    "year": 2016,
+    "zomato": 6306,
+    "swiggy": 3195,
+    "foodPanda": 1655,
+    "dominos": 703,
+    "others": 479
+  },
+  {
+    "year": 2017,
+    "zomato": 5398,
+    "swiggy": 2620,
+    "foodPanda": 1409,
+    "dominos": 729,
+    "others": 427
+  },
+  {
+    "year": 2018,
+    "zomato": 2327,
+    "swiggy": 4096,
+    "foodPanda": 1228,
+    "dominos": 772,
+    "others": 394
+  },
+  {
+    "year": 2019,
+    "zomato": 3936,
+    "swiggy": 1946,
+    "foodPanda": 1064,
+    "dominos": 738,
+    "others": 419
+  },
+  {
+    "year": 2020,
+    "zomato": 3547,
+    "swiggy": 1790,
+    "foodPanda": 1048,
+    "dominos": 801,
+    "others": 4377
+  }
+]

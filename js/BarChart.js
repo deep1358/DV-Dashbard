@@ -18,7 +18,7 @@ const bar_graph = bar_svg
   .append("g")
   .attr("width", graphWidth)
   .attr("height", graphHeight)
-  .attr("transform", `translate(${bar_margin.ml},${bar_margin.mt})`);
+  .attr("transform", `translate(170,${bar_margin.mt})`);
 
 const xg = bar_graph
   .append("g")

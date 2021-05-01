@@ -9,6 +9,17 @@ body {
   background-color: #141b2d;
 }
 
+.tick > text {
+  fill: #acaeb4;
+  font-size: 12px;
+}
+.tick > line {
+  stroke: #acaeb4;
+}
+.domain {
+  stroke: #acaeb4;
+}
+
 .row-1 {
   display: flex;
   border-radius: 30px;
